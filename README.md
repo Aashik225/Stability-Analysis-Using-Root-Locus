@@ -5,6 +5,12 @@ To analyse the stability of the system having open loop transfer function, G(S)=
 Computer with MATLAB software
 
 ## Theory:
+WhatsApp Image 2025-11-27 at 21 56 48_19efc738] (https://github.com/user-attachments/assets/305fda7f-12b6-46b4-83a7-48fd51dbb78c)
+
+![WhatsApp Image 2025-11-27 at 21 56 49_5d2f371d](https://github.com/user-attachments/assets/39faafd2-6b76-4a7e-95b9-81ea78521a86)
+
+![WhatsApp Image 2025-11-27 at 21 56 50_723941fd](https://github.com/user-attachments/assets/59a629d2-4a0f-4333-b237-9fb54c32c694)
+
 
 
 
@@ -19,16 +25,20 @@ Computer with MATLAB software
 ## Program: 
 ```
 num=[1]
+
 den=[1 15 50 0]
-Thus the root locus for the given transfer function was drawn and verified using
-MATLAB. The conditions for stability is 460.6838
+
 sys=tf(num,den)
+
 rlocus(sys)
+
 [k poles]=rlocfind(sys)
+
 ```
 
+
 ## Output:
-<img width="366" height="310" alt="image" src="https://github.com/user-attachments/assets/96af1120-280b-47e8-bb9e-a33c6303a7bb" />
+<img width="702" height="629" alt="image" src="https://github.com/user-attachments/assets/55096823-c15c-4b5a-be8f-cc2d7afc9e88" />
 
 
 ## Result:
